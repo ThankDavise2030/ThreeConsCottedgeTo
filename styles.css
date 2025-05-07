@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+body {
+    background-color: rgb(95, 66, 22);
+    font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+h1, h2, h3{
+    text-align: center;
+    color: #d5a670;
+    padding: 40px;
+}
+nav a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.568);
+    background-color: burlywood;
+    border-radius: 20px;
+    padding: 3px;
+    padding-inline: 20px;
+    }
+    nav {
+        text-align: center;
+        padding: 20px;
+     }
+     header  {
+       text-align: center;
+
+    }
+    header img {
+        width: 160px;
+    }
+    p {
+       text-align: center;
+    color: rgba(0, 0, 0, 0.568); 
+    }
+    .inst {
+        width: 30px;
+        text-align: center;
+    }
+    img {
+        width: 60%;
+        margin-inline: 4%;
+        border: 5px solid rgb(46, 21, 5);
+        border-radius: 10px;
+    }
+    header {
+        background-color: rgb(46, 21, 5);
+    }
+    footer {
+        background-color: rgb(46, 21, 5);
+    }
+    h1 {
+        line-height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main img {
+        margin-inline: 4%;
+        width: 40%;
+    }
+    table {
+        border-collapse: collapse;
+    }
+    td {
+        border-collapse: collapse;
+        border: 2px solid #d5a670;
+        padding: 2px;
+    }
+    .table1{
+    display: flex;
+    justify-content: flex-end;
+}
+.div{
+     display: flex;
+     justify-content: space-between;
+}
